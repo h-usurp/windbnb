@@ -1,0 +1,259 @@
+body{
+	font-size: 20px;
+}
+/* header starts*/
+
+.himg{
+	width:100%;
+}
+.hform{
+	width: 90vw;
+}
+.form{
+	width: 90px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-top: 50px;
+	background-color: white;
+	border-radius:30px ;
+	height: 140px;
+	align-items: center;
+}
+.ftext {
+	border-right: 1px solid grey;
+	font-weight: bold;
+	width: 345px;
+	height: 109px;
+	margin-left: 10px;
+	padding-bottom: 14px;
+	outline-color: white;
+	font-size: 40px;
+}
+.guest{
+	font-weight: normal;
+}
+.msearch {
+	background-color: white;
+	border: 0;
+	border-radius:10px;
+	padding-bottom: 10px;
+	outline-color: white;
+	font-size: 30px;
+}
+.mimg{
+	width: 60px;
+	height: 50px;
+	align-items: center;
+	margin-left: 35px;
+}
+
+/*header ends*/
+
+/*main contents starts*/
+
+.tops{
+	font-family: Sakkal Majalla;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: 200px;
+}
+.left{
+	margin-left: 100px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.right{
+	color: gray;
+	font-weight: bold;
+	margin-right: 100px;
+	font-size: 40px;
+}
+.flex{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-areas: 
+	" himg"
+	"hform";
+	margin-bottom: 50px;
+}
+.himg{
+	grid-area: himg;
+}
+.logo{
+	width: 280px;
+	height: 60px;
+	margin-top: 30px;
+}
+.hform{
+	grid-area: hform;
+}
+.form{
+	display: flex;
+	width: 100%;
+}
+section{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.room{
+	margin-bottom: 50px;
+}
+.img{
+	width: 800px;
+	height: 500px;
+	border-radius: 50px;
+}
+.img:hover{
+	width: 800px;
+	height: 500px;
+	border-radius: 50px;
+}
+.rating{
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-grow: all;
+}
+.title{
+	font-family: Sakkal Majalla;
+	padding: 20px;
+	width: 40%;
+	height: 40px;
+	border: 2px solid grey;
+	border-radius: 35px;
+	font-size: 15px; 
+	font-weight: bold;
+}
+.apart{
+	width: 30%;
+	padding-left: 20px;
+	color: gray;
+	font-size: 11px;
+}
+.rate{
+	width: 40%;
+	padding-left: 0px;
+	color: gray;
+	font-size:10px;
+	}
+.maintext{
+	font-size: 35px;
+	width: 100%;
+}
+.bmaintext{
+ margin-top: 50px;
+}
+.star{
+	position: relative;
+	top: 15px;
+	width: 40px;
+	height: 40px;
+	margin-left: 450px;
+}
+.bstar{
+	position: relative;
+	top: 15px;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;	
+}
+
+/*main content ends*/
+
+/*footer codes*/
+footer{
+	font-family: sakkal Majalla;
+	font-size: 60px;
+}
+/*footer codes end*/
+
+/*pop up starts*/
+
+.pops{
+	
+	position: fixed;
+	height: 100%;
+	background-color: white;
+	display: none;
+}
+.pcont{
+	background-color: white;
+	height: 40%;
+	margin-top: 0;
+
+}
+.iform{
+	margin-top: 70px;
+	display: flex;
+	flex-flow: column;
+}
+.ipop {
+	margin-left: 0px;
+	padding-right: 550px;
+	height: 150px;
+	border-radius: 0;
+	outline: none;
+	font-size: 40px;
+	padding-left: 20px;
+	border-color: white;
+	box-shadow: 1px 0px 0px 4px rgba(0,0,0, 0.1);
+}
+.first{
+	border-style: solid;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.second{
+	border-style: solid;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.isearch {
+	background-color: red;
+	width: 90px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius:10px;
+	outline-color: white;
+	margin-left: 120px;
+}
+.closebtn{
+	text-decoration: none;
+	position: absolute;
+	color:red;
+	top: 9px;
+	left: 900px;
+	height: 45px;
+	font-size: 60px;
+}
+#wsearch{
+	display: none;
+}
+#msearch{
+	font-family: sakkal Majalla;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	width: 250px;
+	height: 120px;
+	font-size: 80px;
+	color: white;
+	border-radius: 30px;
+}
+.ipopsearch{
+	width: 80px;
+	height: 50px;
+}
+.list{
+	font-family: ;
+	display: flex;
+	flex-flow: column;
+	font-size: 50px;
+	line-height: 0.5;
+	margin-left: 120px;
+}
+/*pop up ends*/
